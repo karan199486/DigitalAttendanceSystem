@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/mnu_teacher_refresh"
+    android:title="refresh"
+    android:icon="@android:drawable/stat_notify_sync"
+    app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/mnu_teacher_logout"
+        android:title="logout"
+        />
+</menu>

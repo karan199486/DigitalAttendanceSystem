@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.karan.digitalattendancesystem.TeacherDashboardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/teacher_dash_txt_currentcourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="class :"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/teacher_dash_txt_currentlecture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lecture : "
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Attendance count : "
+                android:textSize="18dp"/>
+            <Spinner
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tech_dash_spin_attendancecount"/>
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/teach_dash_btn_enableattendance"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_primary_dark_design"
+            android:text="Enable Attendance "
+            android:textColor="@android:color/white"
+            />
+
+        <Button
+            android:id="@+id/teach_dash_btn_disableattendance"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_primary_dark_design"
+            android:text="Disable attendance "
+            android:textColor="@android:color/white"
+            />
+
+        <Button
+            android:id="@+id/teach_dash_btn_viewstudentrequest"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_primary_dark_design"
+            android:text="View Student Requests "
+            android:textColor="@android:color/white"
+            />
+
+
+       <!-- <LinearLayout
+            android:id="@+id/stud_dash_llayout_list"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All the student you have requested for attendance will be listed below:"/>
+
+            <ListView
+                android:id="@+id/teach_dash_student_list"
+                android:layout_width="match_parent"
+                android:layout_height="259dp">
+
+            </ListView>
+
+        </LinearLayout>-->
+
+
+    </LinearLayout>
+</ScrollView>
