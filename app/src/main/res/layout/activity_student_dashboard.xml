@@ -15,7 +15,7 @@
             android:id="@+id/dash_txt_currentlecture"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lecture : AJP"
+            android:text="Lecture : N/A"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"/>
 
@@ -23,27 +23,10 @@
             android:id="@+id/dash_txt_currentteacher"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Teacher : DR. PREETI"
+            android:text="Teacher : N/A"
             android:textSize="20dp"
             android:textColor="@color/colorPrimaryDark"/>
 
-       <!-- <LinearLayout
-            android:visibility="gone"
-            android:id="@+id/dash_llayout_showprogress"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <ProgressBar
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:indeterminate="true"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="processing your request..."
-                android:layout_gravity="center"/>
-        </LinearLayout>-->
 
         <Button
             android:id="@+id/dash_btn_requestattendance"

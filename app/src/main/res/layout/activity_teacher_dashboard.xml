@@ -16,14 +16,14 @@
             android:id="@+id/teacher_dash_txt_currentcourse"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="class :"
+            android:text="class : N/A"
             android:textSize="20sp"/>
 
         <TextView
             android:id="@+id/teacher_dash_txt_currentlecture"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="lecture : "
+            android:text="lecture : N/A"
             android:textSize="20sp"/>
 
         <LinearLayout

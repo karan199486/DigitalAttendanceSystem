@@ -35,7 +35,7 @@ public class TeacherDashboardActivity extends AppCompatActivity implements View.
     Button btn_enableattendance, btn_viewstudentrequests, btn_disableattendance;
     TextView txt_course, txt_lecture;
     String name, email, attendancecount="1";
-    String subject = null, course = null; // these variables has no use as of now, becoz course is MCA and subject is AJP.
+    String subject = null, course = null;
     Spinner spinner_attendancecount;
     ArrayAdapter<CharSequence> adapter;
 
@@ -126,8 +126,8 @@ public class TeacherDashboardActivity extends AppCompatActivity implements View.
                     {
                         subject = object.getString("lecture");
                         course = object.getString("course");
-                        txt_course.setText("Lecture : "+course);
-                        txt_lecture.setText("Class : "+subject);
+                        txt_course.setText("Lecture : "+subject);
+                        txt_lecture.setText("Class : "+course);
 
                         if(!subject.equals("N/A"))checkIfAttendanceEnabled();
                     }

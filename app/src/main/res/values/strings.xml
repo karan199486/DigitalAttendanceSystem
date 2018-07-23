@@ -1,19 +1,14 @@
 <resources>
     <string name="app_name">Digital Attendance System</string>
     <string-array name="courses">
-        <item>MCA_4</item>
+        <item>course1</item>
+        <item>course2</item>
     </string-array>
 
     <string-array name="teachernames">
-        <item>DR. ANURADHA</item>
-        <item>DR. PREETI</item>
-        <item>DR. PARUL TOMER</item>
-        <item>MS. JYOTASANA</item>
-        <item>MS. ASHLESHA</item>
-        <item>MS. SHIKHA</item>
-        <item>MS. NEELAM</item>
-        <item>MS. MEENAKSHI</item>
-        <item>SH. VEDPAL</item>
+        <item>teacher1</item>
+        <item>teacher2</item>
+
     </string-array>
 
     <string name="enablebtn">Request Attendance</string>
